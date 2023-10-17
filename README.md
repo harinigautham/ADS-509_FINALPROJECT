@@ -1,1 +1,3 @@
 # ADS-509_FINALPROJECT
+
+The goal of this project is to perform text classification and topic modeling on extracted airline reviews. In order to acquire this data, the Playwright library is utilized to scrape reviews from TripAdvisor, a popular travel website. The initial web scraper was written to extract all airlines reviewed on TripAdvisor, along with the total reviews written for each one, in hopes of acquiring more review data. Skytrax was scraped as well, due to the regional filters available on the site. These regions are incorporated as classes for extracted reviews in hopes of developing more accurate text classification models due to potential regional differences.
